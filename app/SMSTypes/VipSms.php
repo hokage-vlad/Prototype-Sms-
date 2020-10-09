@@ -4,12 +4,20 @@
 namespace App\SMSTypes;
 
 
-class VipSms
+class VipSms implements SMSInterface
 {
-    protected string $name;
-
-    public function __construct($name)
+    public function __construct()
     {
-        $this->name = $name;
+
+    }
+
+    public function send(): string
+    {
+        return "Your message was send by Vip....";
+    }
+
+    public function error(): string
+    {
+        return "Error message";
     }
 }

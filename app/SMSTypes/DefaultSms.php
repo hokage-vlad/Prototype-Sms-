@@ -2,12 +2,20 @@
 
 namespace App\SMSTypes;
 
-class DefaultSms
+class DefaultSms implements SMSInterface
 {
-    protected string $name;
-
-    public function __construct($name)
+    public function __construct()
     {
-       echo $this->name = $name;
+
+    }
+
+    public function send(): string
+    {
+        return "Your message was send by Default....";
+    }
+
+    public function error(): string
+    {
+        return "Error message";
     }
 }
