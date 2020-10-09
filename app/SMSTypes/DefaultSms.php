@@ -4,9 +4,17 @@ namespace App\SMSTypes;
 
 class DefaultSms implements SMSInterface
 {
-    public function __construct()
-    {
 
+    protected int $statusCode;
+
+    public function __construct($statusCode)
+    {
+        $this->statusCode = $statusCode;
+    }
+
+    public function status(): int
+    {
+        return $this->statusCode;
     }
 
     public function send(): string

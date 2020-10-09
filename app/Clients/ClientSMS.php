@@ -15,7 +15,7 @@ class ClientSMS
 
     public function send(): void
     {
-        if (true) {
+        if ($this->sms->status() == 200) {
             echo $this->sms->send();
         } else {
             echo $this->sms->error();

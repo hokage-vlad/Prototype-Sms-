@@ -6,8 +6,9 @@ use App\Clients\ClientSMS;
 
 require __DIR__ . '/vendor/autoload.php';
 
-$defaultSms = new DefaultSms();
-$vipSms = new VipSms();
-$clientSms = new ClientSMS($defaultSms);
+$defaultSms = new DefaultSms(200);
+$vipSms = new VipSms(200);
+
+$clientSms = new ClientSMS($vipSms);
 
 $clientSms->send();

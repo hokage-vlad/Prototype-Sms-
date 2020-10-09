@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54c62fee-c4ec-452d-9292-412887b8543c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Prototype-Sms-.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Messages.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Clients/ClientSMS.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Clients/ClientSMS.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/SMSTypes/DefaultSms.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/SMSTypes/DefaultSms.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/SMSTypes/SMSInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/SMSTypes/SMSInterface.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/SMSTypes/VipSms.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/SMSTypes/VipSms.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
@@ -60,7 +58,7 @@
       <updated>1602168239165</updated>
       <workItem from="1602168244436" duration="2257000" />
       <workItem from="1602171031413" duration="557000" />
-      <workItem from="1602213699124" duration="5627000" />
+      <workItem from="1602213699124" duration="6254000" />
     </task>
     <servers />
   </component>
